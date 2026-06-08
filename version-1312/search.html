@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>搜索 - 免费在线视频 - 国产欧美亚洲日韩视频资源大全 - 高清流畅播放平台</title>
+  <meta name="description" content="搜索免费在线视频、国产视频、欧美视频、亚洲日韩视频和热门影视资源。">
+  <meta name="keywords" content="免费在线视频,国产视频,欧美视频,亚洲视频,日韩视频,高清播放,免费观看,热门影视,在线观看,视频资源,搜索,筛选,片名搜索">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="搜索 - 免费在线视频 - 国产欧美亚洲日韩视频资源大全 - 高清流畅播放平台">
+  <meta property="og:description" content="搜索免费在线视频、国产视频、欧美视频、亚洲日韩视频和热门影视资源。">
+  <meta property="og:type" content="video.movie">
+  <link rel="stylesheet" href="assets/site.css">
+    <script defer src="assets/movie-index.js"></script>
+  <script defer src="assets/site.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-wrap">
+      <a class="logo" href="index.html" aria-label="高清影视大全">
+        <span class="logo-mark">▶</span>
+        <span class="logo-text">高清影视大全</span>
+      </a>
+      <button class="nav-toggle" type="button" data-menu-toggle aria-label="展开菜单">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-menu" data-nav-menu>
+        <a class="nav-link" href="index.html">首页</a>
+        <div class="nav-dropdown">
+          <a class="nav-link" href="categories.html">分类</a>
+          <div class="dropdown-panel">
+              <a href="category-domestic-video.html">国产热播</a>
+              <a href="category-western-video.html">欧美大片</a>
+              <a href="category-japan-korea-video.html">日韩精选</a>
+              <a href="category-asian-video.html">亚洲片库</a>
+              <a href="category-drama-family.html">剧情文艺</a>
+              <a href="category-action-suspense.html">动作悬疑</a>
+              <a href="category-comedy-romance.html">喜剧爱情</a>
+              <a href="category-fantasy-series.html">奇幻剧集</a>
+          </div>
+        </div>
+        <a class="nav-link" href="rankings.html">排行榜</a>
+        <a class="nav-link active" href="search.html">搜索</a>
+        <form class="nav-search" action="search.html" method="get">
+          <input type="search" name="q" placeholder="搜索视频..." autocomplete="off">
+          <button type="submit">搜索</button>
+        </form>
+      </div>
+      <div class="mobile-panel" data-mobile-panel>
+        <a href="index.html">首页</a>
+        <a href="categories.html">全部分类</a>
+              <a href="category-domestic-video.html">国产热播</a>
+              <a href="category-western-video.html">欧美大片</a>
+              <a href="category-japan-korea-video.html">日韩精选</a>
+              <a href="category-asian-video.html">亚洲片库</a>
+              <a href="category-drama-family.html">剧情文艺</a>
+              <a href="category-action-suspense.html">动作悬疑</a>
+              <a href="category-comedy-romance.html">喜剧爱情</a>
+              <a href="category-fantasy-series.html">奇幻剧集</a>
+        <a href="rankings.html">排行榜</a>
+        <a href="search.html">搜索</a>
+      </div>
+    </nav>
+  </header>
+  <main class="page-main" data-search-page>
+    <section class="page-hero search-hero">
+      <div class="container narrow">
+        <h1>搜索影片</h1>
+        <form class="big-search" action="search.html" method="get" data-search-form>
+          <input type="search" name="q" placeholder="输入片名、地区、类型或标签" autocomplete="off" data-search-input>
+          <button type="submit">搜索</button>
+        </form>
+      </div>
+    </section>
+    <section class="content-section">
+      <div class="container">
+        <div class="search-toolbar">
+          <select data-search-channel>
+            <option value="">全部频道</option>
+            <option value="国产热播">国产热播</option>
+            <option value="欧美大片">欧美大片</option>
+            <option value="日韩精选">日韩精选</option>
+            <option value="亚洲片库">亚洲片库</option>
+            <option value="剧情文艺">剧情文艺</option>
+            <option value="动作悬疑">动作悬疑</option>
+            <option value="喜剧爱情">喜剧爱情</option>
+            <option value="奇幻剧集">奇幻剧集</option>
+          </select>
+          <select data-search-year>
+            <option value="">全部年份</option>
+          </select>
+        </div>
+        <div class="filter-summary" data-search-summary>输入关键词查找影片</div>
+        <div class="movie-grid cols-4" data-search-results></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-logo">高清影视大全</div>
+        <p>免费在线视频平台，汇集国产、欧美、亚洲、日韩等50+优质视频资源。提供高清流畅播放，免费观看热门影视作品，每日更新，打造纯净的免费影视观看体验。</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="rankings.html">排行榜</a>
+        <a href="search.html">搜索</a>
+        <a href="category-domestic-video.html">国产热播</a><a href="category-western-video.html">欧美大片</a><a href="category-japan-korea-video.html">日韩精选</a><a href="category-asian-video.html">亚洲片库</a><a href="category-drama-family.html">剧情文艺</a><a href="category-action-suspense.html">动作悬疑</a>
+      </div>
+    </div>
+  </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
